@@ -5,7 +5,7 @@ var express = require('express'),
   methodOverride = require('method-override'),
   app = express();
 
-mongoose.connect('mongodb://node:nodeuser@apollo.modulusmongo.net:27017/xIqynu6r');
+mongoose.connect('mongodb://node:node@apollo.modulusmongo.net:27017/xIqynu6r');
 
 app.use(express.static(__dirname + '/public'));
 app.use(morgan('dev'));
