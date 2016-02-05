@@ -1,0 +1,26 @@
+{
+  "name": "todo_angular_node",
+  "version": "1.0.0",
+  "description": "Simple ToDo app using Angular and Node",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SebbeLar/todo_angular_node.git"
+  },
+  "author": "Sebastian Larsson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SebbeLar/todo_angular_node/issues"
+  },
+  "homepage": "https://github.com/SebbeLar/todo_angular_node#readme",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.4",
+    "method-override": "^2.3.5",
+    "mongoose": "^4.4.1",
+    "morgan": "^1.6.1"
+  }
+}
